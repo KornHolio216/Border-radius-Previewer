@@ -67,6 +67,7 @@ input{
     height: 77px;
     background: #43DDE6;
     border-radius: 16px;
+    padding: 10px;
 }
 
 .copyCodeBtn{
@@ -76,6 +77,7 @@ input{
     background: #43DDE6;
     border: 3px solid #000000;
     font-size: 24px;
+    cursor: pointer;
 }
 
 @media (min-width:801px){
