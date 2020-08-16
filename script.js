@@ -31,8 +31,8 @@ var copyBtn = document.querySelector(".copyCodeBtn")
 copyBtn.addEventListener("click", copyToClipboard)
 
 function copyToClipboard(){
-    var textToCopy = document.querySelector(".cssCode").textContent
+    var textToCopy = document.querySelector(".cssCode")
+    textToCopy.select()
     document.execCommand("copy")
-    window.prompt("")
 }
 
