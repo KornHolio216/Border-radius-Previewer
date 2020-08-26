@@ -1,5 +1,5 @@
 // getting accesss to box element 
-var box = document.querySelector(".box")
+const box = document.querySelector(".box")
 
 // change box radius function
 function changeBoxRadius(topLeftRadius,topRightRadius,bottomLeftRadius,bottomRightRadius){
@@ -26,19 +26,19 @@ document.querySelectorAll(".input").forEach(input => {
 
 //fucnction what will generate css code
 function generateCssCode(){
-    var codeBox = document.querySelector(".cssCode")
-    var styles = getComputedStyle(box)
+    const codeBox = document.querySelector(".cssCode")
+    const styles = getComputedStyle(box)
     codeBox.textContent = `border-radius: ${styles.borderRadius};` // making output to be easy to past into your css code
 }
 
-var copyBtn = document.querySelector(".copyCodeBtn")
+const copyBtn = document.querySelector(".copyCodeBtn")
 
 //adding event listner for button
 copyBtn.addEventListener("click", copyToClipboard)
 
 //copy to clipboard function
 function copyToClipboard(){
-    var textToCopy = document.querySelector(".cssCode")
+    const textToCopy = document.querySelector(".cssCode")
     textToCopy.select() //select all content from  css code box
     document.execCommand("copy") //copy selected text
 }
