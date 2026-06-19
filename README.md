@@ -1,7 +1,5 @@
 # Border-radius Previewer
 
-> Early vanilla JavaScript practice project, kept as part of my learning history.
-
 A simple frontend tool for previewing CSS `border-radius` values and generating the corresponding CSS code.
 
 ## Features
@@ -24,4 +22,4 @@ Open `index.html` directly in the browser or use a local development server.
 
 ## Project status
 
-This is an old learning project created when I was practicing basic frontend development. I keep it public as part of my programming journey journey :p 
+This is an old learning project created when I was practicing basic frontend development. I keep it public as part of my programming journey :p 
